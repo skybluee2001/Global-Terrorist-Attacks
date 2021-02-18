@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ciphense Task</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}" />
+    <link rel="stylesheet" href="{{url_for('static',filename='aos.css')}}" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="toppart">
+        <h1>CIPHENSE</h1>
+        <h1>GLOBAL TERRORIST ATTACK</h1>
+        <div class="intro">
+          <p>
+            My analysis is based on the Global Terrorist Attacks between 1970 and 2017.
+            I have made statistical analyses and visualized data to draw valuable insights. I have analyzed the world data, followed by narrowing my focus on India. I have analyzed data according to the year, country, city, attack type, target type, attack group, etc., to explore the data's specifications and make necessary inferences. I have used Visualisation tools like Seaborn,
+            Matplotlib, Folium. I have used the Flask web framework for the web frontend. Below are my statistical plots with the analysis!
+          </p>
+        </div>
+
+    <section>
+      <div>
+        <img
+          class="myImg"
+          id="myImg"
+          src="{{url_for('static',filename='./images/plot.png')}}"
+          data-aos="fade-right"
+          height="500px"
+          width="800px"
+        />
+      </div>
+      <div>
+        <p data-aos="fade-left">
+          Here is the distribution of the total number of attacks by the
+          country. Iraq witnessed the maximum number of attacks closely followed by India.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div>
+        <img
+          class="myImg"
+          id="myImg"
+          src="{{url_for('static',filename='./images/plot3.png')}}"
+          data-aos="fade-right"
+          height="500px"
+          width="800px"
+        />
+      </div>
+      <div>
+        <p data-aos="fade-left">
+          Here is the plot of the total number of casualties in each country.
+Iraq was again witnessing the highest number of casualties, and India following it shortly.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <img
+          class="myImg"
+          id="myImg"
+          src="{{url_for('static',filename='./images/plot4.png')}}"
+          data-aos="fade-right"
+          height="500px"
+          width="800px"
+        />
+      </div>
+      <div>
+        <p data-aos="fade-left">
+          Here is the distribution of the number of terrorist activities every
+year. There is a significant increase in terrorist activities in
+recent years, with the peak observed in 2014.
+
+        </p>
+      </div>
+    </section>
+    <section>
+      <div>
+        <img
+          class="myImg"
+          id="myImg"
+          src="{{url_for('static',filename='./images/plot6.png')}}"
+          data-aos="fade-right"
+          height="500px"
+          width="800px"
+        />
+      </div>
+      <div>
+        <p data-aos="fade-left">
+          The distribution of the total number of casualties over the year. The maximum
+          number of attacks is evident in 2016. The number of casualties has
+          increased significantly in recent years.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div>
+        <img
+          class="myImg"
+          id="myImg"
+          src="{{url_for('static',filename='./images/plot2.png')}}"
+          data-aos="fade-right"
+          height="500px"
+          width="600px"
+        />
+      </div>
+      <div>
+        <p data-aos="fade-left" style="height:500px; width:350px">
+          Circular Statistical plot of the percentage of the Attack Type which was responsible
+          for the casualties. Bombing/Explosion and Armed Assault are the cause of 73% of these attacks' casualties.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <img
+          class="myImg"
+          id="myImg"
+          src="{{url_for('static',filename='./images/plot5.png')}}"
+          data-aos="fade-right"
+          height="500px"
+          width="800px"
+        />
+      </div>
+      <div>
+        <p data-aos="fade-left">
+          Here is the plot of the total number of attacks and total
+          number of casualties in India's Cities. Srinagar witnessed maximum number pf attacks resulting in huge number of deaths.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div>
+        <img
+          class="myImg"
+          id="myImg"
+          src="{{url_for('static',filename='./images/plot7.png')}}"
+          data-aos="fade-right"
+          height="500px"
+          width="800px"
+        />
+      </div>
+      <div>
+        <p data-aos="fade-left">
+          Here is a HeatMap showing the magnitude of casualties of a particular
+          year and city in India. The maximum casualties was observed in 1991
+          in India.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div>
+        <img
+          class="myImg"
+          id="myImg"
+          src="{{url_for('static',filename='./images/plot8.png')}}"
+          data-aos="fade-right"
+          height="500px"
+          width="800px"
+        />
+      </div>
+      <div>
+        <p data-aos="fade-left">
+          Here is the  plot of the number of casualties in India every year.
+          There were maximum number of casualties in 1991 in India.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <img
+          class="myImg"
+          id="myImg"
+          src="{{url_for('static',filename='./images/plot9.png')}}"
+          data-aos="fade-right"
+          height="500px"
+          width="800px"
+        />
+      </div>
+      <div>
+        <p data-aos="fade-left">
+          Here is the Statistical plot showing the Target Type of the attack in India.
+          Trains have been attacked the most in India, followed by Reserve Police Force Personals
+        </p>
+      </div>
+    </section>
+    <section>
+      <div>
+        <img
+          class="myImg"
+          id="myImg"
+          src="{{url_for('static',filename='./images/india3.png')}}"
+          data-aos="fade-right"
+          height="500px"
+          width="800px"
+        />
+      </div>
+      <div>
+        <p data-aos="fade-left">
+          Map showing the intensity of the terrorist attack at different
+          locations across the world in 1991. The highest number of attacks were observed
+          in the south-east part of North America.
+        </p>
+      </div>
+      </section>
+      <div class="intro">
+          <p>
+            Terrorist Attacks have witnessed a sharp increase in the recent year 2009-2017.
+            The maximum number of attacks is observed in Iraq, shortly followed by India. Explosion and Bombing are responsible
+            for more than 50% of the total casualties in the world. In India, Srinagar had the maximum number of attacks.
+            In 1991, India had the maximum number of deaths across all the cities. In India, most of the attacks have been targeted on trains.
+            With this, I would like to conclude my analysis!
+          </p>
+        </div>
+
+
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01" />
+    </div>
+    <a href="#" class="to-top">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="{{url_for('static',filename='aos.js')}}"></script>
+    <script type="text/javascript">
+      AOS.init({
+        offset: 200,
+        duration: 1000,
+      });
+    </script>
+    <script src="{{url_for('static',filename='main.js')}}"></script>
+  </body>
+</html>
